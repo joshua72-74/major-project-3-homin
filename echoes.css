@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #FFFCF5;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color:  black;
+    color: white;
+
+}
+
+nav>p{
+    display: flex;
+    align-items: center;
+
+    font-size: 30px;
+}
+
+nav>p>img{
+    width: 40px;
+    height: 40px;
+
+}
+
+nav ul{
+    list-style-type: none;
+
+    border: 1px solid grey;
+    border-radius: 30px;
+
+    width: 40%;
+    height: 6vh;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+nav li{
+    display: inline;
+    font-size: 13px;
+
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+    border-radius: 20px;
+
+}
+
+ul li:hover{
+    background-color: greenyellow;
+    color: black;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+nav a{
+    text-decoration: none;
+
+    color: white;
+
+}
+
+nav i{
+    font-size: 15px;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    padding: 6px;
+
+}
+
+nav i:hover{
+    cursor: pointer;
+}
+
+nav select{
+    background-color: black;
+    color: white;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    padding: 5px;
+
+    margin: 10px;
+
+}
+
+nav select:hover{
+    cursor: pointer;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+/*  */
+
+
+.container-1{
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+    color: white;
+
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
+    text-align: center;
+
+    padding: 0 40px;
+
+}
+
+.container-1 h1{
+    font-size: 75px;
+    font-weight: 500;
+
+}
+
+.container-1 span{
+    background-color: #D2D4FF;
+    color: black;
+}
+
+/*  */
+
+
+.container-2{
+    width: 100%;
+    height: 100vh;
+
+    background-color: black;
+}
+
+.container-2 img{
+    width: 100%;
+    height: 140vh;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+/*  */
+
+.container-3{
+    width: 100%;
+    height: 100vh;
+
+    margin-top: 40vh;
+
+    background-color: #FFFCF5;
+}
+
+.container-3 div{
+    width: 50%;
+    height: 50%;
+
+    padding: 20px;
+
+    font-size: 30px;
+}
+
+.container-3 p{
+    font-size: 20px;
+
+    width: 50%;
+    height: 25%;
+
+    margin-left: 50%;
+    /* transform: translateX(-50%); */
+}
+
+/*  */
+
+.container-4{
+    width: 90%;
+    height: 60vh;
+
+    margin: auto;
+
+    text-align: justify;
+
+    /* background-color: red; */
+
+    margin-top: 40px;
+}
+
+.container-4 h1{
+    font-size: 70px;
+
+    font-weight: 500;
+}
+
+
+.container-4 div{
+    width: 100%;
+    height: 30vh;
+    
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+
+    margin-bottom: 50px;
+
+}
+
+.container-4 p{
+    font-size: 20px;
+
+    width: 360px;
+    height: 100px;
+
+    padding: 20px;
+
+    background-color: rgb(191, 237, 255);
+
+    border-radius: 30px;
+}
+
+.container-4 p:first-child{
+    margin-top: 60px;
+    background-color: lavender;
+}
+.container-4 p:nth-child(3){
+    margin-top: 60px;
+    background-color: lavender;
+
+}
+
+.box-olha{
+    width: 400px;
+    height: 200px;
+
+    background-color: rgb(195, 255, 105);
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 60%;
+
+    margin-top: 40vh;
+
+    position: relative;
+
+    padding: 30px;
+
+
+    border-radius: 30px;
+}
+
+.box-olha div{
+    width: 60%;
+
+    font-size: 20px;
+}
+
+.box-olha img{
+    width: 120px;
+    height: 120px;
+
+    border-radius: 50%;
+    border: none;
+
+    position: absolute;
+    top: 20px;
+    right: 30px;
+
+}
+
+.box-olha button{
+    width: 150px;
+    height: 40px;
+    
+    background-color: black;
+    color: white;
+
+    border-radius: 30px;
+
+    margin-top: 20px;
+
+    font-size: 15px;
+}
+
+/*  */
+
+
+.container-5{
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 50px;
+
+    display: flex;
+
+    background-color: black;
+}
+
+.section-1{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+
+    text-align: justify;
+
+    /* background-color: green; */
+
+    padding-top: 40px;
+}
+
+.section-1 h1{
+    color: white;
+    width: 90%;
+    font-size: 70px;
+}
+
+.section-2{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+.section-2 input{
+    width: 80%;
+    height: 70px;
+
+    padding: 20px;
+
+    border: none;
+
+    border-radius: 20px;
+}
+
+.section-2 button{
+    font-size: 20px;
+    width: 80%;
+
+    padding: 10px;
+
+    border: none;
+    border-radius: 20px;
+
+    background-color: rgb(195, 255, 105);
+
+}
+
+.section-2 button:hover{
+    cursor: pointer;
+    background-color: lavender;
+    transition: 0.5s;
+}
+
+/*  */
+
+.container-6{
+
+    width: 100%;
+    height: 43vh;
+
+    padding-bottom: 20px;
+
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+    border: 1px solid black;
+    border-bottom: none;
+
+    /* background-color: lavender; */
+    background-color: #FFFCF5;
+}
+
+.container-6 p{
+    font-size: 20px;
+}
+
+.container-6 h1{
+    font-size: 35px;
+}
+
+.container-6 button{
+    font-size: 13px;
+    width: 100px;
+
+    border-radius: 20px;
+    border: none;
+
+    padding: 10px 5px;
+
+    color: white;
+
+}
+
+.container-6 button:hover{
+    cursor: pointer;
+    transform: translate(0, -15%);
+    transition: 0.5s;
+}
+
+.container-6 button:first-child{
+    background-color: #7F7FD5;
+}
+.container-6 button:nth-child(2){
+    background-color: #D2D4FF;
+    color: black;
+}
+.container-6 button:nth-child(3){
+    background-color: #C6EC64;
+    color: black;
+}
+
+/*  */
+
+.container-7{
+    width: 90%;
+    height: 12vh;
+
+    margin: auto;
+
+    border-top: 1px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: lavender; */
+}
+
+.container-7 p{
+    font-size: 14px;
+}
